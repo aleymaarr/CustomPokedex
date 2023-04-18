@@ -9,7 +9,6 @@ public class Main {
         ListaPokemon capturados = new ListaPokemon();
 
         Scanner scanner = new Scanner(System.in);
-        Scanner scanner = new Scanner(System.in);
         String opcion = "";
 
 
