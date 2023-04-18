@@ -20,8 +20,7 @@ public class Main {
             System.out.println("e - Mostrar lista de capturados");
             System.out.println("f - Cerrar la pokedex");
             opcion = scanner.nextLine();
-
-
-
         }
+
+
 }
