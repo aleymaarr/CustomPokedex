@@ -66,5 +66,30 @@ public class Pokemon {
         this.descripcion = descripcion;
     }
 
+    @Override
+
+    public String toString() {
+        String info = "Nombre: " + nombre + "\n" +
+                "Tipo: " + tipo + "\n" +
+                "Altura: ";
+        if (altura > 0) {
+            info += altura + " m\n";
+        } else {
+            info += "?? m\n";
+        }
+        info += "Peso: ";
+        if (peso > 0) {
+            info += peso + " kg\n";
+        } else {
+            info += "?? kg\n";
+        }
+        info += "Descripción: ";
+        if (!descripcion.isEmpty()) {
+            info += descripcion;
+        } else {
+            info += "???";
+        }
+        return info;
+    }
 
 }
