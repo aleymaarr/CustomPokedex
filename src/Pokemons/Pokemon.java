@@ -7,9 +7,7 @@ public class Pokemon {
     private double peso;
     private String descripcion;
 
-    public Pokemon(String nombre, String tipo, double altura, double peso, String descripcion) {
 
-    }
 
     public Pokemon(String nombre, String tipo, double altura, double peso, String descripcion) {
         this.nombre = nombre;
@@ -19,9 +17,7 @@ public class Pokemon {
         this.descripcion = descripcion;
     }
 
-    public Pokemon(String nombre, String tipo) {
 
-    }
     public Pokemon(String nombre, String tipo) {
         this(nombre, tipo, 0, 0, "");
     }
@@ -58,13 +54,7 @@ public class Pokemon {
         this.descripcion = descripcion;
     }
 
-    public String getDescripcion() {
-        return descripcion;
-    }
 
-    public void setDescripcion(String descripcion) {
-        this.descripcion = descripcion;
-    }
 
     @Override
 
