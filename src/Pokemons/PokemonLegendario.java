@@ -19,11 +19,11 @@ public class PokemonLegendario extends  Pokemon {
         return localizacion;
     }
 
+    @Override
 
-
-
-
-
-
+    public String toString() {
+        return super.toString() + "\nLocalización: " + localizacion;
+    }
+}
 
 }
